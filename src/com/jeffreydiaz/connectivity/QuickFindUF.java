@@ -28,7 +28,7 @@ public class QuickFindUF {
 
 	private void validateSizeOfN(int n) throws InvalidInputException
 	{
-		if (n < 0 || n > Integer.MAX_VALUE) {
+		if (n <= 0) {
 			throw new InvalidInputException("Invalid size");
 		}
 	}
