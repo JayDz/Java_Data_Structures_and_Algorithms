@@ -5,9 +5,9 @@ import com.jeffreydiaz.exceptions.InvalidInputException;
 /**
  * Connectivity problem solved using the Weighted Quick Union method.
  * Complexities:
- *      Creation: o(N)
- *      find: o(lg N)
- *      union: o(lg N)
+ *      Creation: ~N
+ *      find: ~lg N
+ *      union: ~lg N
  * @author Jeffrey Diaz
  */
 public class WeightedQuickUnionUF {

@@ -5,9 +5,9 @@ import com.jeffreydiaz.exceptions.InvalidInputException;
 /**
  * Connectivity problem solved using a Quick Union method.
  * Complexities:
- *      Creation: o(N)
- *      union: o(N) worst case
- *      find: o(N) worst case
+ *      Creation: ~N
+ *      union: ~N
+ *      find: ~N
  * @author Jeffrey Diaz
  */
 public class QuickUnionUF {
