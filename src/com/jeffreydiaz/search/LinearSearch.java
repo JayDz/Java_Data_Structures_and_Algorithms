@@ -2,6 +2,7 @@ package com.jeffreydiaz.search;
 
 /**
  * Implementation of the classic Linear Search algorithm.
+ * Complexity: ~N
  * @author Jeffrey Diaz
  */
 public class LinearSearch {
