@@ -40,7 +40,7 @@ public class LinearSearchTest {
 	@Test
 	public void TestIterableSearchForFoundItem()
 	{
-		Stack<Integer> stack = getFilledStack();
+		Stack<Integer> stack = getStackOfIntegers();
 		boolean found = LinearSearch.search(stack, 12);
 
 		assertTrue(found);
@@ -49,13 +49,13 @@ public class LinearSearchTest {
 	@Test
 	public void TestIterableForItemNotFound()
 	{
-		Stack<Integer> stack = getFilledStack();
+		Stack<Integer> stack = getStackOfIntegers();
 		boolean found = LinearSearch.search(stack, -12);
 
 		assertFalse(found);
 	}
 
-	private Stack<Integer> getFilledStack()
+	private Stack<Integer> getStackOfIntegers()
 	{
 		Stack<Integer> stack = new Stack<Integer>();
 		Integer[] items = getIntegerArray();
