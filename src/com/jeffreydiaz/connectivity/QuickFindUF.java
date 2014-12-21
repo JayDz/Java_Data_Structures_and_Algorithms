@@ -17,7 +17,7 @@ public class QuickFindUF {
 	/**
 	 * Create a QuickFindUF holding n nodes.
 	 * @param n the number of nodes.
-	 * @throws InvalidInputException if n < 0 or greater than possible int max.
+	 * @throws InvalidInputException if n less than zero or greater than possible int max.
 	 */
 	public QuickFindUF(int n) throws InvalidInputException
 	{

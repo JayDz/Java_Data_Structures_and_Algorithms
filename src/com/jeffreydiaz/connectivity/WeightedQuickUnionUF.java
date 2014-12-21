@@ -17,7 +17,7 @@ public class WeightedQuickUnionUF {
 	/**
 	 * Create a WeightedQuickUnionUF containing a forest of size n.
 	 * @param n size of forest.
-	 * @throws InvalidInputException if n is <= 0.
+	 * @throws InvalidInputException if n is less than or equal to zero.
 	 */
 	public WeightedQuickUnionUF(int n) throws InvalidInputException
 	{
