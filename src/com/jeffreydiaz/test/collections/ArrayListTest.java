@@ -237,8 +237,8 @@ public class ArrayListTest {
 		}
 
 		// last two values: 0 and 1
-		assertTrue(intArray[0] == list.front());
-		assertTrue(intArray[1] == list.back());
+		assertTrue(intArray[0].equals(list.front()));
+		assertTrue(intArray[1].equals(list.back()));
 	}
 
 	private Integer[] generateIntegersAndAppendToList()
