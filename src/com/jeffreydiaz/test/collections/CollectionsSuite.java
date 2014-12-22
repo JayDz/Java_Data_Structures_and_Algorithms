@@ -8,5 +8,5 @@ import org.junit.runners.Suite;
  * @author Jeffrey Diaz
  */
 @RunWith(Suite.class)
-@Suite.SuiteClasses({DoublyLinkedListTest.class, SinglyLinkedListTest.class})
+@Suite.SuiteClasses({DoublyLinkedListTest.class, SinglyLinkedListTest.class, ArrayListTest.class})
 public class CollectionsSuite {}
