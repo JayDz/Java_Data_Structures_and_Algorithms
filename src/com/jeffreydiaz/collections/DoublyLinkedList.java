@@ -59,6 +59,10 @@ public class DoublyLinkedList<Item> implements Iterable<Item> {
 	 */
 	public void append(Item item)
 	{
+		if (item == null) {
+			return;
+		}
+
 		if (isEmpty()) {
 			initEmptyList(item);
 		} else {
@@ -80,6 +84,10 @@ public class DoublyLinkedList<Item> implements Iterable<Item> {
 	 */
 	public void prepend(Item item)
 	{
+		if (item == null) {
+			return;
+		}
+
 		if (isEmpty()) {
 			initEmptyList(item);
 		} else {
