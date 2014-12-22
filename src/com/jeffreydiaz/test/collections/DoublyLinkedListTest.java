@@ -206,4 +206,13 @@ public class DoublyLinkedListTest {
 
 		assertFalse(iterator.hasNext());
 	}
+
+	@Test
+	public void InsertNullItem()
+	{
+		list.prepend(null);
+		list.append(null);
+
+		assertTrue(list.isEmpty());
+	}
 }
