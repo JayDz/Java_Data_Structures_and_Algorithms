@@ -8,5 +8,15 @@ import org.junit.runners.Suite;
  * @author Jeffrey Diaz
  */
 @RunWith(Suite.class)
-@Suite.SuiteClasses({DoublyLinkedListTest.class, SinglyLinkedListTest.class, ArrayListTest.class})
+@Suite.SuiteClasses({DoublyLinkedListTest.class,
+	             SinglyLinkedListTest.class,
+	             ArrayListTest.class,
+                     ArrayStackTest.class,
+	             LinkedStackTest.class,
+		     ArrayQueueTest.class,
+		     LinkedQueueTest.class,
+		     ArrayBagTest.class,
+		     LinkedBagTest.class,
+		     ArrayDequeTest.class,
+		     LinkedDequeTest.class})
 public class CollectionsSuite {}
