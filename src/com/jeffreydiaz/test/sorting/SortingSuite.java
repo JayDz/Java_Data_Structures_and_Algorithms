@@ -8,5 +8,9 @@ import org.junit.runners.Suite;
  * @author Jeffrey Diaz
  */
 @RunWith(Suite.class)
-@Suite.SuiteClasses({BubbleTest.class, InsertionTest.class, SelectionTest.class})
+@Suite.SuiteClasses({BubbleTest.class,
+		     InsertionTest.class,
+	             SelectionTest.class,
+                     MergeTest.class,
+		     QuickTest.class})
 public class SortingSuite {}
