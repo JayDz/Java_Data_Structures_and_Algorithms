@@ -1,0 +1,1 @@
+Implementations of classical textbook Data Structures and Algorithms. Implementations are kept simple for the benefit of other students.
