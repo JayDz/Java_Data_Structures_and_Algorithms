@@ -18,5 +18,7 @@ import org.junit.runners.Suite;
 		     ArrayBagTest.class,
 		     LinkedBagTest.class,
 		     ArrayDequeTest.class,
-		     LinkedDequeTest.class})
+		     LinkedDequeTest.class,
+		     OrderedMaxPQTest.class,
+		     OrderedMinPQTest.class})
 public class CollectionsSuite {}
