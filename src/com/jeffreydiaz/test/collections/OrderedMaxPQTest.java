@@ -106,7 +106,7 @@ public class OrderedMaxPQTest {
 		int prev = pq.remove();
 		while (!pq.isEmpty()) {
 			int curr = pq.remove();
-			assertTrue(prev > curr);
+			assertTrue(prev >= curr);
 			prev = curr;
 		}
 	}
