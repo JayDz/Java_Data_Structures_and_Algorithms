@@ -33,6 +33,8 @@ public class OrderedMaxPQ<Key extends Comparable<Key>> extends AbstractOrderedPQ
 		for (int i = size - 1; i > 0; --i) {
 			if (less(keys[i], keys[i-1])) {
 				exch(i,i-1);
+			} else {
+				break;
 			}
 		}
 	}
