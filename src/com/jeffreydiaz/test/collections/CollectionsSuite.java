@@ -22,5 +22,7 @@ import org.junit.runners.Suite;
 		     OrderedMaxPQTest.class,
 		     OrderedMinPQTest.class,
 		     UnorderedMaxPQTest.class,
-		     UnorderedMinPQTest.class})
+		     UnorderedMinPQTest.class,
+		     MaxPQTest.class,
+		     MinPQTest.class})
 public class CollectionsSuite {}
