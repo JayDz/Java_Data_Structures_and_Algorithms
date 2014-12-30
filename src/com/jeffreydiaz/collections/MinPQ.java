@@ -121,7 +121,7 @@ public class MinPQ<Key extends Comparable<Key>>
 	@SuppressWarnings("unchecked")
 	private void resize(int newSize)
 	{
-		Key[] temp = (Key[]) new Comparable[newSize+1];
+		Key[] temp = (Key[]) new Comparable[newSize];
 		for (int i = 1; i < size; ++i) {
 			temp[i] = keys[i];
 		}
