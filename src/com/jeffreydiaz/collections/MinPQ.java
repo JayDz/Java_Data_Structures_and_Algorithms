@@ -93,6 +93,7 @@ public class MinPQ<Key extends Comparable<Key>>
 		keys[size] = null;
 		--size;
 		sink(1);
+		shrinkSize();
 		return ret;
 	}
 
@@ -112,6 +113,13 @@ public class MinPQ<Key extends Comparable<Key>>
 		}
 	}
 
+	private void shrinkSize()
+	{
+		if ((size > 0) && (size == (keys.length-1)/4)) {
+			resize(keys.length/2);
+		}
+	}
+
 	@SuppressWarnings("unchecked")
 	private boolean greater(Comparable p, Comparable q)
 	{
@@ -122,7 +130,7 @@ public class MinPQ<Key extends Comparable<Key>>
 	private void resize(int newSize)
 	{
 		Key[] temp = (Key[]) new Comparable[newSize];
-		for (int i = 1; i < size; ++i) {
+		for (int i = 1; i <= size; ++i) {
 			temp[i] = keys[i];
 		}
 
